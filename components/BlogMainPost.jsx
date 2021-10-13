@@ -22,8 +22,7 @@ export default function BlogMainPost({
               <h1>{title}</h1>
               <h3>{subtitle}</h3>
               <h4>
-                {author.name}
-                {dayjs(createdAt).format("MMMM D")}
+                {author.name}·{dayjs(createdAt).format("MMMM D")}
               </h4>
             </Card>
           </a>

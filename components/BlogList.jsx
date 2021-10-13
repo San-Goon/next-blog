@@ -42,7 +42,7 @@ export default function BlogList({ posts }) {
                   >
                     <h3>{post.title}</h3>
                     <h4>
-                      {post.author.name}{" "}
+                      {post.author.name}·
                       {dayjs(post.createdAt).format("MMMM D")}
                     </h4>
                   </Card>
